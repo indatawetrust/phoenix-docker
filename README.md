@@ -19,4 +19,4 @@ sudo docker exec -it server bash
 ### start phoenix server
 elixir --detached -S mix phoenix.server
 
-![localhost:4000]([![image](http://i.hizliresim.com/nMo9ZV.png)](http://hizliresim.com/nMo9ZV))
+![localhost:4000](http://i.hizliresim.com/nMo9ZV.png)
