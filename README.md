@@ -1,6 +1,9 @@
 # phoenix-docker
 Phoenix Framework dockerfile
 
+### clone phoenix-docker
+git clone https://github.com/indatawetrust/phoenix-docker.git && cd phoenix-docker
+
 ### build image
 sudo docker build -t phoenix-docker .
 
