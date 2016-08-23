@@ -16,7 +16,7 @@ ENV PHOENIX_VERSION 1.1.4
 
 RUN mix archive.install --force https://github.com/phoenixframework/archives/raw/master/phoenix_new-$PHOENIX_VERSION.ez
 
-RUN curl -sL https://deb.nodesource.com/setup_5.x | sudo bash -
+RUN curl -sL https://deb.nodesource.com/setup_5.x | bash -
 
 RUN apt-get install -y nodejs
 
